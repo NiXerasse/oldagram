@@ -1,0 +1,87 @@
+@font-face {
+    font-family: SourceSansPro;
+    font-weight: 400;
+    src: url("fonts/SourceSansPro-Regular.otf")
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    font-weight: 700;
+    src: url("fonts/SourceSansPro-Bold.otf")
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: SourceSansPro, sans-serif;
+    color: black;
+    background-color: #ededed;
+}
+
+.emph {
+    display: inline;
+}
+
+header, 
+.section-header h3,
+.section-header p {
+    margin: 0;
+}
+
+.section-footer h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.sections {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+header, section {
+    background-color: white;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+}
+
+.section-footer {
+    padding: 20px 0 16px 10px;
+}
+
+.logo-img {
+    width: 127px;
+}
+
+.avatar-img {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.section-img {
+    width: 100%;
+}
+
+.icon-img {
+    display: inline-block;
+    width: 23px;
+    margin-right: 20px;
+}
