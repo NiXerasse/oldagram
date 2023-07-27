@@ -85,3 +85,7 @@ header, section {
     width: 23px;
     margin-right: 20px;
 }
+
+.icon-img:hover {
+    opacity: 50%;
+}
